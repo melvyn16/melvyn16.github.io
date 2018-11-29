@@ -1,0 +1,51 @@
+a:hover { 
+    color: red;
+    text-decoration: none;
+} 
+a:focus {
+    color: green;
+}
+
+.my_color { 
+    color:blueviolet;
+}
+
+.my_font {  
+    font-size: 22px;
+}
+
+.my_container {
+background-color: aqua;
+color: black;
+padding: 20px;
+margin: 20px;
+border: 20px;
+border-radius: 20px;
+border: 5px dotted black;
+width: 50%;
+height: 250px;
+background-image: url(images/pic01.jpg);
+background-size: cover;
+/*background-repeat: round;*/
+background-attachment: fixed;
+margin-left: auto;
+margin-right: auto;
+} /* this the box style.background-size: contain and cover // another option is to have background-attachment: fixed*/
+/* media query = @ media (max-width: "size" )*/
+
+@media (max-width:500px)   {
+h1 { font-size: 10px; }
+
+}
+
+form{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.my_input_txt {
+    width: 60%;
+    margin: 5px;
+}
