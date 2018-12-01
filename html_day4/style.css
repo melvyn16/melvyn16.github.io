@@ -1,0 +1,50 @@
+body { 
+    font-family: 'QText+Me+One', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+    font-family: 'Text Me One', sans-serif;
+}
+
+/*div {
+    border: 1px solid gray;
+}*/
+
+/*.btn-primary {
+    background-color: red;
+}
+*/
+
+.my_btn_color {
+    background-color: blueviolet;
+} /* this need to apply into the html*/
+
+
+.jumbotron {
+    background-color: aqua;
+    background-image: url(images/pokemon-wallpaper-pikachu.jpg)
+}
+
+h1 {
+    color: red !important;
+}
+
+.my_icon_color{
+    color: red;
+}
+
+.my_margin_bottom {
+    margin-bottom: 30px;
+}
+
+.my_link:hover {
+    text-decoration:red;
+}
+.my_link {
+    color: black;
+}
+
+.general_spacing {
+    margin-bottom: 80px;
+}
