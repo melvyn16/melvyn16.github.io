@@ -44,3 +44,44 @@ var total = 200;
 var qtyTotal = qty * total; /** qty x total */
 console.log (qtyTotal); 
 
+
+
+var firstNumber;
+var secondNumber;
+var totalNumber;
+
+firstNumber = 10;
+secondNumber = "10";
+totalNumber = firstNumber * secondNumber; /** firstNumber x secondNumber */
+console.log (totalNumber); /** check in browser */
+
+console.log (fullName+firstNumber); /** the number will become a string = "Pika Chu10" */
+
+
+/** boolean = only have 2 value. True or False */
+
+/** firstNumber = true; 
+firstNumber = false; */
+
+/**compare two variables */
+/** "==" (the same value) or "!=" (not the same value)  or "====" or "!=="s (compare value and type) */
+
+var compareResult;
+compareResult = (firstNumber == secondNumber); /* (will not compare value and type) */
+console.log (compareResult);
+
+compareResult = (firstNumber === secondNumber); /* (compare value and type) */
+console.log (compareResult);
+
+var testA = "Singapore";
+var testB = "Singapore";
+var compareTest = (testA!=testB);
+console.log (compareTest); /** the resule is "false" */
+
+var myHtmlValue;
+
+myHtmlValue = document.getElementById("my_name").value; /** get the value from the html */
+console.log(myHtmlValue);
+
+/** function is a statement that perform tasks ie 'calculate" or "save" or "update" */
+/** function "name of function" ( camelCase ) {}" to return a value or not or procedure*/
