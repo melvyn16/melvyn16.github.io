@@ -90,7 +90,7 @@ while  ( step < primeNumber.length ){
 //---------- Start -----------------//
 
 var numbers = [1,2,3,4,5,6,7,8,9,10];
-//if even number --> "Even Number"
+// condition >>> if even number --> "Even Number"
 // -> "Not Even Number"
 
 // while + if else
@@ -112,3 +112,49 @@ while ( step < numbers.length ){
 }
 
 //--------------- END ---------------//
+//---------- Start -----------------//
+
+//the below is demostracting another type of looping style. "for loop"
+var numbers_2 = [1,2,3,4,5,6,7,8,9,10];
+
+for ( var a = 0 ; a < numbers_2.length ; a++ ) {
+    console.log (numbers_2 [a]);
+}
+
+
+//--------------- END ---------------//
+//---------- Start -----------------//
+// .length can also be replace by .push( "string or numbers, etc... "). use with an empty array.
+
+var collections = [];
+console.log (collections);
+
+collections.push("Test");
+console.log (collections);  // push technic to the empty array
+
+collections.push("Test 2");
+console.log (collections);
+
+//--------------- END ---------------//
+//---------- Start -----------------//
+
+var myCollections = []; // to define the var outside the function. if it inside the function the the function will overwrite result.
+// loop is in the function // innerHTML can accept a HTML element. //.value is only for "input".
+function addMe (){
+    var myText = document.getElementById  ( "myText" ).value;
+    myCollections.push(myText);  
+
+    document.getElementById("myResult").innerHTML = "";
+    for( var a = 0 ; a < myCollections.length ; a++ ){
+        var currValue = myCollections[a] + "<br>"; //a is the current index. quote is need in JS if input of HTML elememt <br> is given in JS. <br> is break 
+        var currResultValue = document.getElementById("myResult").innerHTML;
+        document.getElementById("myResult").innerHTML = currResultValue + currValue;  // new value will be added when "add" is click
+        
+    }
+
+    //document.getElementById("myResult").innerHTML = "This is Test Only";
+}  
+
+//var test = documemt.getElementById("myResult").innerHTML;
+//console.log(test);
+
